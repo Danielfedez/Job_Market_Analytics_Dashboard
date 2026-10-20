@@ -2,7 +2,9 @@
 
 # 📝 Principales Insights y Hallazgos
 
-## Database no filtrada
+<details>
+<summary><b>🔍 Database No Filtrada (Vista General)</b></summary>
+<br>
 
 Se analizan cuatro bloques sin aplicar ningún filtro dinámico, es decir, se analiza la base de datos al completo.
 
@@ -31,9 +33,23 @@ Las tecnologías más requeridas en las ofertas laborales se concentran en datos
 ### 4. Tendencia Temporal de Contratación (2024)
 * **Pico de demanda:** El primer semestre mantuvo un volumen alto y constante (promedio de 45,000 a 55,000 ofertas mensuales entre enero y julio).
 * **Caída sustancial:** Se observa una desaceleración pronunciada a partir de agosto, alcanzando el punto más bajo en noviembre (14,000 ofertas), seguido de una ligera recuperación en diciembre (31,000 ofertas).
+</details>
 
- ## Database filtrada
 
-### Data Analyst global
+<details>
+<summary><b>🔍 Sector Tech en Suiza</b></summary>
+<br>
 
-<img width="1308" height="813" alt="data_analyst" src="https://github.com/user-attachments/assets/d6019e84-7420-4a97-84ac-39c6c2d72f14" />
+Al aislar la muestra del mercado suizo (3.689 ofertas de empleo), el panel revela patrones claros sobre la demanda de perfiles analíticos y técnicos:
+
+1. **Stack Tecnológico Predominante:** **Python** y **SQL** se consolidan como los dos pilares absolutos e indiscutibles exigidos por los empleadores, seguidos por plataformas *Cloud* (AWS y Azure).
+2. **Cultura de Trabajo y Presencialidad:** El **92.71%** de las ofertas de empleo no contemplan la opción de teletrabajo 100% remoto, evidenciando una fuerte preferencia por modelos presenciales o híbridos rigurosos en el sector corporativo y asegurador suizo.
+3. **Distribución de Roles:** Alta concentración de vacantes orientadas a *Data Engineer*, *Data Scientist* y *Data Analyst*.
+4. **Temporalidad y Estacionalidad del Mercado Suizo:** Se aprecia un pico claro de ofertas a principios de primavera (marzo/abril) y un repunte en verano (julio), seguido de una caída drástica hacia septiembre y noviembre. Esto refleja el ciclo presupuestario corporativo y bancario suizo: los presupuestos de contratación tecnológica se abren fuertemente tras el cierre de Q1, y se congelan bruscamente hacia el final del año fiscal.
+
+<img width="1257" height="772" alt="dashboard_suiza" src="https://github.com/user-attachments/assets/8151d4c4-0522-4372-8c66-feb80ef6324a" />
+
+
+Durante la fase de exploración visual se identificó una anomalía en las tarjetas KPI salariales del dataset filtrado (mediana salarial de **$88k/año**), cifra sensiblemente inferior a la media macroeconómica real de plazas como Zúrich o Ginebra, donde los rangos medios oscilan entre **$110k - $145k+**. El origen del error puede deberse a la presencia de registros con salarios atípicos muy bajos (e.g., $30,72K o $34,56K) procedentes del *scraping* de portales internacionales, correspondientes a contratos en prácticas o erratas en la conversión de salarios mensuales/por horas a la tasa anual.
+Para la preparación de este modelo a un entorno de producción o reporting directivo, se propone que el *pipeline* en Power Query requiera de un filtrado IQR para la eliminación de *outliers* salariales inferiores a $80k, o la imputación condicional por mediana según el rol (`job_title_short`).
+
