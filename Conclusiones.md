@@ -1,6 +1,10 @@
 
 
-## 📝 Principales Insights y Hallazgos
+# 📝 Principales Insights y Hallazgos
+
+## Database no filtrada
+
+Se analizan cuatro bloques sin aplicar ningún filtro dinámico, es decir, se analiza la base de datos al completo.
 
 ### 1. Métricas Salariales y Puestos
 * **Salario Mediano General:** **$113,000/año** ($47.62/hora).
@@ -27,3 +31,9 @@ Las tecnologías más requeridas en las ofertas laborales se concentran en datos
 ### 4. Tendencia Temporal de Contratación (2024)
 * **Pico de demanda:** El primer semestre mantuvo un volumen alto y constante (promedio de 45,000 a 55,000 ofertas mensuales entre enero y julio).
 * **Caída sustancial:** Se observa una desaceleración pronunciada a partir de agosto, alcanzando el punto más bajo en noviembre (14,000 ofertas), seguido de una ligera recuperación en diciembre (31,000 ofertas).
+
+ ## Database filtrada
+
+### Data Analyst global
+
+<img width="1308" height="813" alt="data_analyst" src="https://github.com/user-attachments/assets/d6019e84-7420-4a97-84ac-39c6c2d72f14" />
