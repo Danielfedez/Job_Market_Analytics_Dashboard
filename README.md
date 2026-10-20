@@ -13,7 +13,7 @@ El objetivo principal es documentar mis avances en el uso de la herramienta crea
 
 ## 🖼️ Preview del Dashboard / 📝 [Conclusiones del Dashboard](https://github.com/Danielfedez/Job_Market_Analytics_Dashboard/blob/main/Conclusiones.md)
 <img width="1238" height="760" alt="dashboard_general" src="https://github.com/user-attachments/assets/7f504084-aecb-4e67-b91e-992a7860f518" />
-ℹ️ Dado que la publicación e integración del informe interactivo en la web requiere una cuenta corporativa/suscripción de Power BI Service, he adjuntado **capturas de pantalla detalladas** del dashboard en este repositorio para mostrar el resultado visual y la maquetación final. Asimismo, el archivo `.pbix` está disponible para su descarga.
+ℹ️ Dado que la publicación e integración del informe interactivo en la web requiere una cuenta corporativa/suscripción de Power BI Service, he adjuntado **capturas de pantalla detalladas** del dashboard en este repositorio para mostrar el resultado visual y la maquetación final. 
 
 
 
