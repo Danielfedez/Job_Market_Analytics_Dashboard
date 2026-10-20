@@ -1,11 +1,6 @@
-# 📊 Análisis de Ofertas de Empleo: Perfiles y Salarios Tech
 
-## 📌 Descripción del Proyecto
-Este dashboard interactivo analiza un conjunto de **478,895 ofertas de empleo del sector tecnológico** publicadas a lo largo de 2024. El objetivo principal es ofrecer una visión clara sobre las tendencias de contratación, la distribución salarial, las habilidades técnicas más demandadas y las condiciones laborales globales (teletrabajo, requisitos académicos y beneficios).
 
----
-
-## 🔑 Principales Insights y Hallazgos
+## 📝 Principales Insights y Hallazgos
 
 ### 1. Métricas Salariales y Puestos
 * **Salario Mediano General:** **$113,000/año** ($47.62/hora).
