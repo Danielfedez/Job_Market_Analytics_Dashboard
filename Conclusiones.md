@@ -1,6 +1,6 @@
 
 
-# 📝 Principales Insights y Hallazgos
+# 📝 Conclusiones del Dashboard
 
 <details>
 <summary><b>🔍 Database No Filtrada (Vista General)</b></summary>
