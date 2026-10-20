@@ -42,4 +42,6 @@ A través de este dashboard interactivo se analizan aspectos clave del mercado l
 4. **Beneficios y Modalidades:** Proporción de ofertas con opción de teletrabajo (*Work From Home*), requisitos académicos e inclusión de seguro médico.
 5. **Tendencias Temporales:** Evolución mensual y trimestral en la publicación de ofertas de empleo a lo largo del año.
 
+6. [Enlace al informe](https://github.com/Danielfedez/Job_Market_Analytics_Dashboard/blob/main/Conclusiones_del_Dashboard)
+
 
