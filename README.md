@@ -32,7 +32,7 @@ La base de datos analizada contiene información detallada sobre 478.895 publica
 * **Temporalidad:** `job_posted_date`
 
 
-## 🔍 KPIs Desarrollados
+## 🎯 KPIs Desarrollados
 
 A través de este dashboard interactivo se analizan aspectos clave del mercado laboral tecnológico:
 
@@ -41,6 +41,13 @@ A través de este dashboard interactivo se analizan aspectos clave del mercado l
 3. **Análisis de Stack Técnico:** Mapeo y ranking de las tecnologías y competencias más demandadas por los empleadores (*Python, SQL, AWS, Power BI, etc.*).
 4. **Beneficios y Modalidades:** Proporción de ofertas con opción de teletrabajo (*Work From Home*), requisitos académicos e inclusión de seguro médico.
 5. **Tendencias Temporales:** Evolución mensual y trimestral en la publicación de ofertas de empleo a lo largo del año.
+
+## 🔍 Filtros Dinámicos
+
+Segmentación por nombre del puesto, país, rango salarial y fecha de publicación.
+
+<img width="2294" height="539" alt="filtros_dinamicos" src="https://github.com/user-attachments/assets/a1b6a09e-f66b-4de7-bc37-6ba1193add52" />
+
 
 
 
