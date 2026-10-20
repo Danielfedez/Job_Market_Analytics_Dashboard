@@ -11,7 +11,7 @@ El objetivo principal es documentar mis avances en el uso de la herramienta crea
 
 ---
 
-## 🖼️ Preview del Dashboard
+## 🖼️ Preview del Dashboard / 📝 [Conclusiones del Dashboard](https://github.com/Danielfedez/Job_Market_Analytics_Dashboard/blob/main/Conclusiones_del_Dashboard)
 <img width="1238" height="760" alt="dashboard_general" src="https://github.com/user-attachments/assets/7f504084-aecb-4e67-b91e-992a7860f518" />
 ℹ️ Dado que la publicación e integración del informe interactivo en la web requiere una cuenta corporativa/suscripción de Power BI Service, he adjuntado **capturas de pantalla detalladas** del dashboard en este repositorio para mostrar el resultado visual y la maquetación final. Asimismo, el archivo `.pbix` está disponible para su descarga.
 
@@ -42,6 +42,8 @@ A través de este dashboard interactivo se analizan aspectos clave del mercado l
 4. **Beneficios y Modalidades:** Proporción de ofertas con opción de teletrabajo (*Work From Home*), requisitos académicos e inclusión de seguro médico.
 5. **Tendencias Temporales:** Evolución mensual y trimestral en la publicación de ofertas de empleo a lo largo del año.
 
-6. [Enlace al informe](https://github.com/Danielfedez/Job_Market_Analytics_Dashboard/blob/main/Conclusiones_del_Dashboard)
+
+
+
 
 
